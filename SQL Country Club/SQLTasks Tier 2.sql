@@ -86,8 +86,8 @@ facility, the name of the member formatted as a single column, and the cost.
 Order by descending cost, and do not use any subqueries. */
 SELECT b.facid, b.starttime, f.membercost, f.guestcost, f.name, m.surname, m.firstname
 FROM Bookings AS b
-LEFT JOIN Facilities AS f ON b.facid = f.facid
-LEFT JOIN Members as m ON b.memid = m.memid 
+JOIN Facilities AS f ON b.facid = f.facid
+JOIN Members as m ON b.memid = m.memid 
 WHERE b.starttime LIKE '2012-09-14%'
 AND (f.membercost >=30 OR f.guestcost >=30)
 ORDER BY f.guestcost DESC
@@ -97,10 +97,10 @@ SELECT bf.facid, bf.memid, bf.starttime, bf.membercost, bf.guestcost, bf.name, m
 FROM (
 SELECT b.facid, b.memid, b.starttime, f.membercost, f.guestcost, f.name
 FROM Bookings AS b
-LEFT JOIN Facilities AS f ON b.facid = f.facid
+JOIN Facilities AS f ON b.facid = f.facid
 WHERE b.starttime LIKE '2012-09-14%'
 AND (f.membercost >=30 OR f.guestcost >=30 )) AS bf
-LEFT JOIN Members AS m ON bf.memid = m.memid
+JOIN Members AS m ON bf.memid = m.memid
 ORDER BY bf.guestcost DESC;
 
 /* PART 2: SQLite
