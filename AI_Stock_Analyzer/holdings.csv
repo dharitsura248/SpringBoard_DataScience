@@ -1,0 +1,11 @@
+ticker,shares,avg_cost,sector
+MU,100,85.50,Technology
+NVDA,50,450.00,Technology
+AMD,75,120.00,Technology
+AAPL,200,150.00,Technology
+MSFT,80,300.00,Technology
+GOOGL,30,130.00,Technology
+AMZN,60,175.00,Consumer Cyclical
+TSLA,40,200.00,Consumer Cyclical
+JPM,120,160.00,Financial Services
+BAC,300,35.00,Financial Services
