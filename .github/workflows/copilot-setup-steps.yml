@@ -31,25 +31,4 @@ jobs:
             - name: Install data science dependencies
               run: |
                   pip install --upgrade pip
-                  pip install \
-                    jupyter \
-                    notebook \
-                    ipykernel \
-                    numpy \
-                    pandas \
-                    matplotlib \
-                    seaborn \
-                    scipy \
-                    scikit-learn \
-                    statsmodels \
-                    plotly \
-                    requests \
-                    python-dotenv \
-                    bayesian-optimization \
-                    "lightgbm>=4.6.0" \
-                    catboost \
-                    ydata-profiling \
-                    pydotplus \
-                    graphviz \
-                    nbconvert \
-                    ipywidgets
+                  pip install -r requirements.txt
