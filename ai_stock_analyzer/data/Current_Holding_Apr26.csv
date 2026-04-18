@@ -1,0 +1,11 @@
+Symbol,Description,Quantity,Cost_Basis_Per_Share,Current_Price,Market_Value,Unrealized_Gain_Loss,Unrealized_Gain_Loss_Pct,Asset_Type
+MU,Micron Technology Inc,100,85.50,95.20,9520.00,970.00,11.34,Stock
+AAPL,Apple Inc,50,175.00,189.50,9475.00,725.00,8.29,Stock
+NVDA,NVIDIA Corporation,25,450.00,875.30,21882.50,10632.50,94.06,Stock
+MSFT,Microsoft Corporation,40,320.00,415.75,16630.00,3830.00,29.92,Stock
+AMZN,Amazon.com Inc,30,140.00,185.20,5556.00,1356.00,32.29,Stock
+GOOGL,Alphabet Inc Class A,20,135.00,172.40,3448.00,748.00,27.70,Stock
+META,Meta Platforms Inc,35,300.00,502.10,17573.50,7073.50,67.37,Stock
+TSLA,Tesla Inc,45,220.00,175.80,7911.00,-1989.00,-20.09,Stock
+AMD,Advanced Micro Devices Inc,60,115.00,162.40,9744.00,2844.00,41.22,Stock
+INTC,Intel Corporation,80,38.00,31.50,2520.00,-520.00,-17.11,Stock
